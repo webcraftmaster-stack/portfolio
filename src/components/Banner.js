@@ -4,7 +4,7 @@ import banner from '../data/banner'
 
 export default function Banner() {
   return (
-    <div className="auto-height bg-fixed banner-style-one">
+    <div className="auto-height bg-fixed banner-style-one" id="home">
         <div className="container">
             <div className="double-items">
                 <div className="row align-center">

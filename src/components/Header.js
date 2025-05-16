@@ -30,12 +30,6 @@ export default function Header({mode, setMode}) {
                         </a>
                     </li>
                     <li>
-                        <a className="smooth-menu" href="#about">
-                            <i className="fas fa-user"></i>
-                            <div className="menu-name">About</div>
-                        </a>
-                    </li>
-                    <li>
                         <a className="smooth-menu" href="#resume">
                             <i className="fas fa-file-alt"></i>
                             <div className="menu-name">Resume</div>
