@@ -1,0 +1,21 @@
+import Banner from './Banner';
+import Services from './Services';
+import Portfolio from './Portfolio';
+import About from './Portfolio';
+import Resume from './Resume';
+import Contact from './Contact';
+
+import React from 'react'
+
+export default function Dashboard() {
+    return (
+        <>
+            <Banner />
+            <Services />
+            <Portfolio />
+            <About />
+            <Resume />
+            <Contact />
+        </>
+    )
+}

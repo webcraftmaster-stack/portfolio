@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Header() {
+export default function Header({mode, setMode}) {
   return (
     <header className="header-fixed">
         <div className="f-flex">
@@ -45,6 +45,14 @@ export default function Header() {
                         <a className="smooth-menu" href="#contact">
                             <i className="fas fa-comments"></i>
                             <div className="menu-name">Contact</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a className="smooth-menu" href="#dark" onClick={() => {
+                            setMode(!mode);
+                        }}>
+                            <i className={mode === true ? "fas fa-sun" : "fas fa-moon"}></i>
+                            <div className="menu-name">{mode === true ? "Light Mode" : "Dark Mode"}</div>
                         </a>
                     </li>
                 </ul>

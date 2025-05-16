@@ -49,8 +49,8 @@ export default function Portfolio() {
                     <div className="magnific-mix-gallery masonary">
                         <div id="portfolio-grid" className="gallery-items colums-3">
                             {
-                                portfolio.projects.map(project => (
-                                    <div className="pf-item">
+                                portfolio.projects.map((project, id) => (
+                                    <div className="pf-item" key={id}>
                                         <div className="overlay-content">
                                             <img src={project.img} alt="thumb" />
                                             <div className="content">

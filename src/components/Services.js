@@ -19,8 +19,8 @@ export default function Services() {
         <div className="container">
             <div className="row">
                 {
-                    services.services.map(service => (
-                        <div className="service-style-one col-lg-4 col-md-6">
+                    services.services.map((service, id) => (
+                        <div className="service-style-one col-lg-4 col-md-6" key={id}>
                             <div className="service-style-one-item">
                                 <img src={service.imgIcon} alt="Icon" />
                                 <h4><a data-bs-toggle="modal" data-bs-target="#serviceSingleModal">{service.title}</a></h4>
@@ -32,7 +32,7 @@ export default function Services() {
             </div>
         </div>
         
-        <div className="modal fade" id="serviceSingleModal" tabindex="-1" aria-hidden="true">
+        <div className="modal fade" id="serviceSingleModal" tabIndex="-1" aria-hidden="true">
             <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
                 <div className="modal-content">
                     
@@ -84,7 +84,7 @@ export default function Services() {
                                 <div className="accordion" id="faqAccordion">
                                     {
                                         services.modal.faqDetail.map((detail, id) => (
-                                            <div className="accordion-item">
+                                            <div className="accordion-item" key={id}>
                                                 <h2 className="accordion-header" id={"heading" + detail.id}>
                                                     <button className={"accordion-button" + (id !== 0 ? " collapsed" : "")} type="button" data-bs-toggle="collapse" data-bs-target={"#collapse" + detail.id} aria-expanded={id === 0 ? "true" : "false"} aria-controls={"collapse" + detail.id}>
                                                         {detail.title}
@@ -107,8 +107,8 @@ export default function Services() {
                                 <h3>{services.services.title}</h3>
                                 <div className="row">
                                     {
-                                        services.serviceMore.data.map(item => (
-                                            <div className="col-md-6">
+                                        services.serviceMore.data.map((item, id) => (
+                                            <div className="col-md-6" key={id}>
                                                 <div className="item">
                                                     <i className={item.img}></i>
                                                     <h4><a>{item.title}</a></h4>
