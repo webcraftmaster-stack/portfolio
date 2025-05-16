@@ -2,49 +2,49 @@ import React from 'react'
 
 export default function HeaderFixed() {
   return (
-    <header class="header-fixed">
-        <div class="f-flex">
-            <div class="logo">
+    <header className="header-fixed">
+        <div className="f-flex">
+            <div className="logo">
                 <a href="#home">
                     <img src="/img/logo-icon.svg" alt="Logo" />
                 </a>
             </div>
-            <div class="menu">
-                <ul class="nav">
+            <div className="menu">
+                <ul className="nav">
                     <li>
-                        <a class="smooth-menu" href="#home">
-                            <i class="fas fa-home"></i>
-                            <div class="menu-name">Home</div>
+                        <a className="smooth-menu" href="#home">
+                            <i className="fas fa-home"></i>
+                            <div className="menu-name">Home</div>
                         </a>
                     </li>
                     <li>
-                        <a class="smooth-menu" href="#services">
-                            <i class="fas fa-cog"></i>
-                            <div class="menu-name">Services</div>
+                        <a className="smooth-menu" href="#services">
+                            <i className="fas fa-cog"></i>
+                            <div className="menu-name">Services</div>
                         </a>
                     </li>
                     <li>
-                        <a class="smooth-menu" href="#portfolio">
-                            <i class="fas fa-briefcase"></i>
-                            <div class="menu-name">Portfolio</div>
+                        <a className="smooth-menu" href="#portfolio">
+                            <i className="fas fa-briefcase"></i>
+                            <div className="menu-name">Portfolio</div>
                         </a>
                     </li>
                     <li>
-                        <a class="smooth-menu" href="#about">
-                            <i class="fas fa-user"></i>
-                            <div class="menu-name">About</div>
+                        <a className="smooth-menu" href="#about">
+                            <i className="fas fa-user"></i>
+                            <div className="menu-name">About</div>
                         </a>
                     </li>
                     <li>
-                        <a class="smooth-menu" href="#resume">
-                            <i class="fas fa-file-alt"></i>
-                            <div class="menu-name">Resume</div>
+                        <a className="smooth-menu" href="#resume">
+                            <i className="fas fa-file-alt"></i>
+                            <div className="menu-name">Resume</div>
                         </a>
                     </li>
                     <li>
-                        <a class="smooth-menu" href="#contact">
-                            <i class="fas fa-comments"></i>
-                            <div class="menu-name">Contact</div>
+                        <a className="smooth-menu" href="#contact">
+                            <i className="fas fa-comments"></i>
+                            <div className="menu-name">Contact</div>
                         </a>
                     </li>
                 </ul>
