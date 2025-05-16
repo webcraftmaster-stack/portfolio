@@ -28,7 +28,7 @@ export default function Banner() {
                             </span>
                         </h3>
                         <div className="button mt-55">
-                            <a className="btn btn-md circle btn-dark" href="#resume">My Resume</a>
+                            <a className="btn btn-md circle btn-dark">My Resume</a>
                         </div>
                     </div>
 
