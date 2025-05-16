@@ -3,29 +3,29 @@ import data from '../data/about'
 
 export default function About() {
   return (
-    <div id="about" class="about-style-six-area default-padding-top">
-        <div class="container">
-            <div class="row align-center">
-                <div class="about-style-six col-lg-5">
-                    <div class="thumb">
-                        <img class="wow fadeInUp" src="/img/illustration/3.png" alt="Thumb" />
+    <div id="about" className="about-style-six-area default-padding-top">
+        <div className="container">
+            <div className="row align-center">
+                <div className="about-style-six col-lg-5">
+                    <div className="thumb">
+                        <img className="wow fadeInUp" src="/img/illustration/3.png" alt="Thumb" />
                     </div>
                 </div>
-                <div class="about-style-six col-lg-6 offset-lg-1">
-                    <h4 class="sub-title">{data.subTitle}</h4>
-                    <h2 class="title">{data.title}</h2>
+                <div className="about-style-six col-lg-6 offset-lg-1">
+                    <h4 className="sub-title">{data.subTitle}</h4>
+                    <h2 className="title">{data.title}</h2>
                     <p>
                         {data.desc}
                     </p>
-                    <div class="skill-list">
+                    <div className="skill-list">
                         <ul>
                             {
                                 data.skills.map((item, id) => (
                                     <li key={id}>
-                                        <div class="icon">
-                                            <i class={item.icon}></i>
+                                        <div className="icon">
+                                            <i className={item.icon}></i>
                                         </div>
-                                        <div class="content">
+                                        <div className="content">
                                             <h4>{item.title}</h4>
                                             <span>{item.desc}</span>
                                         </div>

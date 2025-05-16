@@ -21,34 +21,34 @@ export default function Resume() {
       
 
     return (
-        <div id="resume" class="resume-area default-padding-top">
-            <div class="shape-right-top-extra">
+        <div id="resume" className="resume-area default-padding-top">
+            <div className="shape-right-top-extra">
                 <img src="/img/shape/14.png" alt="Shape" />
             </div>
-            <div class="container">
-                <div class="experience-content-box">
-                    <div class="row">
-                        <div class="col-xl-10 offset-xl-1">
+            <div className="container">
+                <div className="experience-content-box">
+                    <div className="row">
+                        <div className="col-xl-10 offset-xl-1">
         
-                            <div class="nav nav-tabs text-center resume-tab-navs" id="nav-tab" role="tablist">
+                            <div className="nav nav-tabs text-center resume-tab-navs" id="nav-tab" role="tablist">
         
-                                <button class="nav-link active" id="nav-id-1" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">
+                                <button className="nav-link active" id="nav-id-1" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">
                                     {resume.tag1} <strong>01</strong>
                                 </button>
-                                <button class="nav-link" id="nav-id-2" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">
+                                <button className="nav-link" id="nav-id-2" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">
                                     {resume.tag2} <strong>02</strong>
                                 </button>
-                                <button class="nav-link" id="nav-id-3" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">
+                                <button className="nav-link" id="nav-id-3" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">
                                     {resume.tag3} <strong>03</strong>
                                 </button>
         
                             </div>
         
-                            <div class="tab-content resume-tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="nav-id-1">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <ul class="biography-table">
+                            <div className="tab-content resume-tab-content" id="nav-tabContent">
+                                <div className="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="nav-id-1">
+                                    <div className="row">
+                                        <div className="col-lg-12">
+                                            <ul className="biography-table">
                                                 <li>
                                                     <h5>Name</h5>
                                                     <p>
@@ -102,27 +102,27 @@ export default function Resume() {
                                     </div>
                                 </div>
         
-                                <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="nav-id-2">
-                                    <div class="row align-center">
-                                        <div class="col-lg-12">
-                                            <ul class="skill-table">
+                                <div className="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="nav-id-2">
+                                    <div className="row align-center">
+                                        <div className="col-lg-12">
+                                            <ul className="skill-table">
                                                 {
                                                     resume.skills.map((skill, id) => (
                                                         <li key={id}>
-                                                            <div class="row align-center">
-                                                                <div class="col-lg-2">
-                                                                    <div class="icon">
-                                                                        <i class={skill.icon}></i>
+                                                            <div className="row align-center">
+                                                                <div className="col-lg-2">
+                                                                    <div className="icon">
+                                                                        <i className={skill.icon}></i>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-lg-5">
+                                                                <div className="col-lg-5">
                                                                     <h4>{skill.title}</h4>
                                                                 </div>
-                                                                <div class="col-lg-5">
-                                                                    <div class="progress-box">
+                                                                <div className="col-lg-5">
+                                                                    <div className="progress-box">
                                                                         <h5>{skill.percentage}%</h5>
-                                                                        <div class="progress">
-                                                                            <div class="progress-bar" role="progressbar" data-width={skill.percentage}></div>
+                                                                        <div className="progress">
+                                                                            <div className="progress-bar" role="progressbar" data-width={skill.percentage}></div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -135,10 +135,10 @@ export default function Resume() {
                                     </div>
                                 </div>
         
-                                <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="nav-id-3">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <ul class="education-table">
+                                <div className="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="nav-id-3">
+                                    <div className="row">
+                                        <div className="col-lg-12">
+                                            <ul className="education-table">
                                                 {
                                                     resume.education.map((item, id) => (
                                                         <li key={id}>

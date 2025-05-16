@@ -8,91 +8,91 @@ export default function Contact() {
     const [comment, setComment] = useState('');
 
     return (
-        <div id="contact" class="contact-area shape-less default-padding overflow-hidden">
-            <h2 class="text-shade">{contact.backgroundTitle}</h2>
-            <div class="container">
-                <div class="contact-content">
-                    <div class="row align-center">
-                        <div class="col-lg-7 contact-form-box mb-md-50 mb-xs-50">
-                            <div class="form-box">
+        <div id="contact" className="contact-area shape-less default-padding overflow-hidden">
+            <h2 className="text-shade">{contact.backgroundTitle}</h2>
+            <div className="container">
+                <div className="contact-content">
+                    <div className="row align-center">
+                        <div className="col-lg-7 contact-form-box mb-md-50 mb-xs-50">
+                            <div className="form-box">
                                 <h2>{contact.title}</h2>
                                 <p>
                                     {contact.desc}
                                 </p>
-                                <form action="/mail/contact.php" method="POST" class="contact-form">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="form-group">
-                                                <input class="form-control" id="name" name="name" placeholder="Name" type="text" value={name} onChange={(e) => setName(e.target.value)} />
-                                                <span class="alert-error"></span>
+                                <form action="/mail/contact.php" method="POST" className="contact-form">
+                                    <div className="row">
+                                        <div className="col-lg-12">
+                                            <div className="form-group">
+                                                <input className="form-control" id="name" name="name" placeholder="Name" type="text" value={name} onChange={(e) => setName(e.target.value)} />
+                                                <span className="alert-error"></span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <input class="form-control" id="email" name="email" placeholder="Email*" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
-                                                <span class="alert-error"></span>
+                                    <div className="row">
+                                        <div className="col-lg-6">
+                                            <div className="form-group">
+                                                <input className="form-control" id="email" name="email" placeholder="Email*" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                                                <span className="alert-error"></span>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text" value={phone} onChange={(e) => setPhone(e.target.value)}/>
-                                                <span class="alert-error"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="form-group comments">
-                                                <textarea class="form-control" id="comments" name="comments" placeholder="Tell Us About Project *" value={comment} onChange={(e) => setComment(e.target.value)}></textarea>
+                                        <div className="col-lg-6">
+                                            <div className="form-group">
+                                                <input className="form-control" id="phone" name="phone" placeholder="Phone" type="text" value={phone} onChange={(e) => setPhone(e.target.value)}/>
+                                                <span className="alert-error"></span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
+                                    <div className="row">
+                                        <div className="col-lg-12">
+                                            <div className="form-group comments">
+                                                <textarea className="form-control" id="comments" name="comments" placeholder="Tell Us About Project *" value={comment} onChange={(e) => setComment(e.target.value)}></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-lg-12">
                                             <button type="submit" name="submit" id="submit">
                                                 Send Message
                                             </button>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 alert-notification">
-                                        <div id="message" class="alert-msg"></div>
+                                    <div className="col-lg-12 alert-notification">
+                                        <div id="message" className="alert-msg"></div>
                                     </div>
                                 </form>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 offset-lg-1 info">
-                            <div class="content">
+                        <div className="col-lg-4 offset-lg-1 info">
+                            <div className="content">
                                 <ul>
-                                    <li class="contact-info-list wow fadeInUp">
-                                        <div class="icon">
-                                            <i class="fas fa-envelope-open-text"></i>
+                                    <li className="contact-info-list wow fadeInUp">
+                                        <div className="icon">
+                                            <i className="fas fa-envelope-open-text"></i>
                                         </div>
-                                        <div class="info">
+                                        <div className="info">
                                             <p>Our Email</p>
                                             <h5>
                                                 <a href={"mailto:" + contact.mail}>{contact.mail}</a> 
                                             </h5>
                                         </div>
                                     </li>
-                                    <li class="contact-info-list wow fadeInUp" data-wow-delay="300ms">
-                                        <div class="icon">
-                                            <i class="fas fa-map-marker-alt"></i>
+                                    <li className="contact-info-list wow fadeInUp" data-wow-delay="300ms">
+                                        <div className="icon">
+                                            <i className="fas fa-map-marker-alt"></i>
                                         </div>
-                                        <div class="info">
+                                        <div className="info">
                                             <p>Address</p>
                                             <h5>
                                                 {contact.address}
                                             </h5>
                                         </div>
                                     </li>
-                                    <li class="contact-info-list wow fadeInUp" data-wow-delay="500ms">
-                                        <div class="icon">
-                                            <i class="fas fa-headphones-alt"></i>
+                                    <li className="contact-info-list wow fadeInUp" data-wow-delay="500ms">
+                                        <div className="icon">
+                                            <i className="fas fa-headphones-alt"></i>
                                         </div>
-                                        <div class="info">
+                                        <div className="info">
                                             <p>Phone</p>
                                             <h5>
                                                 <a href="tel:+4733378901">{contact.phone1}</a> 

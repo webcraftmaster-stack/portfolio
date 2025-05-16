@@ -33,7 +33,7 @@ export default function Banner() {
                     </div>
 
                      <div className="col-lg-6 thumb" data-wow-delay="900ms">
-                        <img className=" wow fadeInDown" src={profile.picture} alt="Thumb" />
+                        <img className="wow fadeInDown" src={profile.picture} alt="Thumb" />
                         <div className="shape-center">
                             <img src={banner.thumb} alt="Thumb" />
                         </div>
