@@ -2,16 +2,26 @@ import './App.css';
 
 import Preloader from './components/Preloader';
 import Header from './components/Header';
-import HeaderFixed from './components/HeaderFixed';
 import Banner from './components/Banner';
+import Services from './components/Services';
+import Portfolio from './components/Portfolio';
+import About from './components/About';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <Preloader />
       <Header />
-      <HeaderFixed />
       <Banner />
+      <Services />
+      <Portfolio />
+      <About />
+      <Resume />
+      <Contact />
+      <Footer />
     </div>
   );
 }

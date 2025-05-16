@@ -17,20 +17,18 @@ export default function Banner() {
                                 <span className="cd-headline clip is-full-width">
                                     <span className="cd-words-wrapper">
                                         {
-                                            profile.roles.map((role, id) => {
-                                                if (id == 0) {
-                                                    return <b className="is-visible" key={id}>{role}</b>
-                                                } else {
-                                                    return <b className="is-hidden" key={id}>{role}</b>
-                                                }
-                                            })
+                                            profile.roles.map((role, id) => (
+                                                <b className={id === 0 ? "is-visible" : "is-hidden"} key={id}>
+                                                    {role}
+                                                </b>
+                                            ))
                                         }
                                     </span>
                                 </span>
                             </span>
                         </h3>
                         <div className="button mt-55">
-                            <a className="btn btn-md circle btn-dark" href="#resume">My Resume</a>
+                            <a className="btn btn-md circle btn-dark">My Resume</a>
                         </div>
                     </div>
 
@@ -43,7 +41,6 @@ export default function Banner() {
                     
                 </div>
                 {
-                /*
                 <div className="personal-social">
                     <ul>
                         <li className="facebook">
@@ -63,7 +60,6 @@ export default function Banner() {
                         </li>
                     </ul>
                 </div>
-                */
                 }
             </div>
         </div>
