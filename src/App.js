@@ -4,6 +4,7 @@ import Preloader from './components/Preloader';
 import Header from './components/Header';
 import HeaderFixed from './components/HeaderFixed';
 import Banner from './components/Banner';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <HeaderFixed />
       <Banner />
+      <Services />
     </div>
   );
 }

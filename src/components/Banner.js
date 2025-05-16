@@ -18,7 +18,7 @@ export default function Banner() {
                                     <span className="cd-words-wrapper">
                                         {
                                             profile.roles.map((role, id) => {
-                                                if (id == 0) {
+                                                if (id === 0) {
                                                     return <b className="is-visible" key={id}>{role}</b>
                                                 } else {
                                                     return <b className="is-hidden" key={id}>{role}</b>
