@@ -63,29 +63,258 @@ const portfolio = {
             ]
         },
         {
-            img: "/img/800x600.png",
-            type: "Creative",
-            title: "Gaming Apps"
+            url: 'whatsapp',              // Project Title
+            type: "Creative",             
+            title: "Gaming Apps",         // Project Name on Frontend
+            desc: "Clone of WhatsApp web, using ReactJs and Styled Components for styling and Firebase and its features such as AUTH for user authentication and FIRESTORE to store the conversations of each registered person. With the dark mode option to change the theme and thus have a pleasant interface.",
+            img: "/img/projects/whatsapp/login.png",
+            client: "Validthemes",
+            projectType: "Website Growth",
+            date: "25 February, 2024",
+            address: "New York United State",
+            bannerImg: "/img/projects/whatsapp/chat.png",
+            thumbImg: "/img/projects/whatsapp/new-chat.png",
+            print: [
+                {
+                  name: 'Login',
+                  description:
+                    'Página de login com a opção de conectar pelo google ou pelo github.',
+                  img: '/img/projects/whatsapp/login.png'
+                },
+                {
+                  name: 'Home Light',
+                  description:
+                    'Página de início, após o usuário se autenticar, onde exibe uma mensagem de Boas-vindas, e no canto esquerdo uma lista de contatos.',
+                  img: '/img/projects/whatsapp/home-light.png'
+                },
+                {
+                  name: 'Home Dark',
+                  description: 'Página inicial em sua versão dark mode.',
+                  img: '/img/projects/whatsapp/home-dark.png'
+                },
+                {
+                  name: 'Chat',
+                  description:
+                    'Página de chat exibe a informações de um chat especifico mostrando as mensagens enviadas por você e aquelas respondidas pelo outro contato.',
+                  img: '/img/projects/whatsapp/chat.png'
+                },
+                {
+                  name: 'Chat Emoji',
+                  description: 'Opção de escolher um emoji.',
+                  img: '/img/projects/whatsapp/chat-emoji.png'
+                },
+                {
+                  name: 'Novo Chat',
+                  description: 'Aba com uma lista contendo a opção de escolha de um novo chat.',
+                  img: '/img/projects/whatsapp/new-chat.png'
+                }
+            ]
         },
         {
-            img: "/img/800x600.png",
-            type: "Business",
-            title: "Business Apps"
+            url: 'Turtle Movie',              // Project Title
+            type: "Business",             
+            title: "Business Apps",         // Project Name on Frontend
+            desc: "Clone of WhatsApp web, using ReactJs and Styled Components for styling and Firebase and its features such as AUTH for user authentication and FIRESTORE to store the conversations of each registered person. With the dark mode option to change the theme and thus have a pleasant interface.",
+            img: "/img/projects/turtlemovie/turtle.png",
+            client: "Validthemes",
+            projectType: "Website Growth",
+            date: "25 February, 2024",
+            address: "New York United State",
+            bannerImg: "/img/projects/turtlemovie/detail-home.png",
+            thumbImg: "/img/projects/turtlemovie/series-popular.png",
+            print: [
+                {
+                  name: 'Home',
+                  description:
+                    'Homepage do site, onde são exibidos os filmes e series mais populares da semana.',
+                  img: '/projects/turtlemovie/turtle-movie.png'
+                },
+                {
+                  name: 'Filmes Populares',
+                  description:
+                    'Página que tem os filmes mais populares, assim como aqueles com a maior nota de todos os tempos.',
+                  img: '/projects/turtlemovie/movie-popular.png'
+                },
+                {
+                  name: 'Séries Populares',
+                  description:
+                    'Página que contem as séries mais populares, assim como aqueles com a maior nota de todos os tempos.',
+                  img: '/projects/turtlemovie/series-popular.png'
+                },
+                {
+                  name: 'Pagina Detalhes',
+                  description:
+                    'Página que contem os detalhes de um filme/serie especifico. Como a data de lançamento, a duração (no caso de filmes), a produção, o idioma e o país de origem. ',
+                  img: '/projects/turtlemovie/detail-home.png'
+                },
+                {
+                  name: 'Detalhes Atores',
+                  description:
+                    'Página que contem os detalhes dos personagens assim como a opção de ver a ficha técnica de cada pessoa específica.',
+                  img: '/projects/turtlemovie/detail-elenco.png'
+                },
+                {
+                  name: 'Detalhes Video',
+                  description: 'Pagina que contem o trailer do filme/serie especifico',
+                  img: '/projects/turtlemovie/detail-video.png'
+                },
+                {
+                  name: 'Atores Populares',
+                  description:
+                    'Explore também a lista de atores populares e descubra quais filmes e séries eles já participaram.',
+                  img: '/projects/turtlemovie/peoples.png'
+                },
+                {
+                  name: 'Atores Detalhes',
+                  description:
+                    'Página que contem os detalhes dos personagens assim como a ficha técnica de cada pessoa específica. Você poderá acompanhar a carreira de seus atores favoritos e encontrar novas obras para assistir.',
+                  img: '/projects/turtlemovie/detail-people.png'
+                }
+            ]
         },
         {
-            img: "/img/800x600.png",
-            type: "Invest",
-            title: "Travel Apps"
+            url: 'whatsapp',              // Project Title
+            type: "Creative",             
+            title: "Gaming Apps",         // Project Name on Frontend
+            desc: "Clone of WhatsApp web, using ReactJs and Styled Components for styling and Firebase and its features such as AUTH for user authentication and FIRESTORE to store the conversations of each registered person. With the dark mode option to change the theme and thus have a pleasant interface.",
+            img: "/img/projects/whatsapp/login.png",
+            client: "Validthemes",
+            projectType: "Website Growth",
+            date: "25 February, 2024",
+            address: "New York United State",
+            bannerImg: "/img/projects/whatsapp/chat.png",
+            thumbImg: "/img/projects/whatsapp/new-chat.png",
+            print: [
+                {
+                  name: 'Login',
+                  description:
+                    'Página de login com a opção de conectar pelo google ou pelo github.',
+                  img: '/img/projects/whatsapp/login.png'
+                },
+                {
+                  name: 'Home Light',
+                  description:
+                    'Página de início, após o usuário se autenticar, onde exibe uma mensagem de Boas-vindas, e no canto esquerdo uma lista de contatos.',
+                  img: '/img/projects/whatsapp/home-light.png'
+                },
+                {
+                  name: 'Home Dark',
+                  description: 'Página inicial em sua versão dark mode.',
+                  img: '/img/projects/whatsapp/home-dark.png'
+                },
+                {
+                  name: 'Chat',
+                  description:
+                    'Página de chat exibe a informações de um chat especifico mostrando as mensagens enviadas por você e aquelas respondidas pelo outro contato.',
+                  img: '/img/projects/whatsapp/chat.png'
+                },
+                {
+                  name: 'Chat Emoji',
+                  description: 'Opção de escolher um emoji.',
+                  img: '/img/projects/whatsapp/chat-emoji.png'
+                },
+                {
+                  name: 'Novo Chat',
+                  description: 'Aba com uma lista contendo a opção de escolha de um novo chat.',
+                  img: '/img/projects/whatsapp/new-chat.png'
+                }
+            ]
         },
         {
-            img: "/img/800x600.png",
-            type: "Source",
-            title: "Lifestyle Apps"
+            url: 'whatsapp',              // Project Title
+            type: "Creative",             
+            title: "Gaming Apps",         // Project Name on Frontend
+            desc: "Clone of WhatsApp web, using ReactJs and Styled Components for styling and Firebase and its features such as AUTH for user authentication and FIRESTORE to store the conversations of each registered person. With the dark mode option to change the theme and thus have a pleasant interface.",
+            img: "/img/projects/whatsapp/login.png",
+            client: "Validthemes",
+            projectType: "Website Growth",
+            date: "25 February, 2024",
+            address: "New York United State",
+            bannerImg: "/img/projects/whatsapp/chat.png",
+            thumbImg: "/img/projects/whatsapp/new-chat.png",
+            print: [
+                {
+                  name: 'Login',
+                  description:
+                    'Página de login com a opção de conectar pelo google ou pelo github.',
+                  img: '/img/projects/whatsapp/login.png'
+                },
+                {
+                  name: 'Home Light',
+                  description:
+                    'Página de início, após o usuário se autenticar, onde exibe uma mensagem de Boas-vindas, e no canto esquerdo uma lista de contatos.',
+                  img: '/img/projects/whatsapp/home-light.png'
+                },
+                {
+                  name: 'Home Dark',
+                  description: 'Página inicial em sua versão dark mode.',
+                  img: '/img/projects/whatsapp/home-dark.png'
+                },
+                {
+                  name: 'Chat',
+                  description:
+                    'Página de chat exibe a informações de um chat especifico mostrando as mensagens enviadas por você e aquelas respondidas pelo outro contato.',
+                  img: '/img/projects/whatsapp/chat.png'
+                },
+                {
+                  name: 'Chat Emoji',
+                  description: 'Opção de escolher um emoji.',
+                  img: '/img/projects/whatsapp/chat-emoji.png'
+                },
+                {
+                  name: 'Novo Chat',
+                  description: 'Aba com uma lista contendo a opção de escolha de um novo chat.',
+                  img: '/img/projects/whatsapp/new-chat.png'
+                }
+            ]
         },
         {
-            img: "/img/800x600.png",
-            type: "Finance",
-            title: "Entertainment Apps"
+            url: 'whatsapp',              // Project Title
+            type: "Creative",             
+            title: "Gaming Apps",         // Project Name on Frontend
+            desc: "Clone of WhatsApp web, using ReactJs and Styled Components for styling and Firebase and its features such as AUTH for user authentication and FIRESTORE to store the conversations of each registered person. With the dark mode option to change the theme and thus have a pleasant interface.",
+            img: "/img/projects/whatsapp/login.png",
+            client: "Validthemes",
+            projectType: "Website Growth",
+            date: "25 February, 2024",
+            address: "New York United State",
+            bannerImg: "/img/projects/whatsapp/chat.png",
+            thumbImg: "/img/projects/whatsapp/new-chat.png",
+            print: [
+                {
+                  name: 'Login',
+                  description:
+                    'Página de login com a opção de conectar pelo google ou pelo github.',
+                  img: '/img/projects/whatsapp/login.png'
+                },
+                {
+                  name: 'Home Light',
+                  description:
+                    'Página de início, após o usuário se autenticar, onde exibe uma mensagem de Boas-vindas, e no canto esquerdo uma lista de contatos.',
+                  img: '/img/projects/whatsapp/home-light.png'
+                },
+                {
+                  name: 'Home Dark',
+                  description: 'Página inicial em sua versão dark mode.',
+                  img: '/img/projects/whatsapp/home-dark.png'
+                },
+                {
+                  name: 'Chat',
+                  description:
+                    'Página de chat exibe a informações de um chat especifico mostrando as mensagens enviadas por você e aquelas respondidas pelo outro contato.',
+                  img: '/img/projects/whatsapp/chat.png'
+                },
+                {
+                  name: 'Chat Emoji',
+                  description: 'Opção de escolher um emoji.',
+                  img: '/img/projects/whatsapp/chat-emoji.png'
+                },
+                {
+                  name: 'Novo Chat',
+                  description: 'Aba com uma lista contendo a opção de escolha de um novo chat.',
+                  img: '/img/projects/whatsapp/new-chat.png'
+                }
+            ]
         }
     ]
 }
