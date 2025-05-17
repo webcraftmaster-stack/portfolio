@@ -1,5 +1,6 @@
 import React from 'react'
 import portfolio from '../data/portfolio'
+import { Link } from 'react-router-dom'
 
 export default function Portfolio() {
   return (
@@ -55,10 +56,12 @@ export default function Portfolio() {
                                             <img src={project.img} alt="thumb" />
                                             <div className="content">
                                                 <div className="title">
-                                                    <span>{project.subTitle}</span>
+                                                    <span>{project.type}</span>
                                                     <h5><a href="#">{project.title}</a></h5>
                                                 </div>
-                                                <a href="#"><i className="fas fa-arrow-right"></i></a>
+                                                <Link to={"/project/" + project.url}>
+                                                    <i className="fas fa-arrow-right"></i>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>

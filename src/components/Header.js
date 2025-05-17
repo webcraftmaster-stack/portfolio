@@ -5,7 +5,7 @@ export default function Header({mode, setMode}) {
     <header className="header-fixed">
         <div className="f-flex">
             <div className="logo">
-                <a href="#home">
+                <a href="/">
                     <img src="/img/logo-icon.svg" alt="Logo" />
                 </a>
             </div>
@@ -30,12 +30,6 @@ export default function Header({mode, setMode}) {
                         </a>
                     </li>
                     <li>
-                        <a className="smooth-menu" href="#about">
-                            <i className="fas fa-user"></i>
-                            <div className="menu-name">About</div>
-                        </a>
-                    </li>
-                    <li>
                         <a className="smooth-menu" href="#resume">
                             <i className="fas fa-file-alt"></i>
                             <div className="menu-name">Resume</div>
@@ -48,7 +42,7 @@ export default function Header({mode, setMode}) {
                         </a>
                     </li>
                     <li>
-                        <a className="smooth-menu" href="#dark" onClick={() => {
+                        <a className="smooth-menu" href="#" onClick={() => {
                             setMode(!mode);
                         }}>
                             <i className={mode === true ? "fas fa-sun" : "fas fa-moon"}></i>
