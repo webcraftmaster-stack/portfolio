@@ -10,6 +10,7 @@ import {
 import Preloader from './components/Preloader';
 import Header from './components/Header';
 import Dashboard from './components/Dashboard';
+import Project from './components/Project';
 import Footer from './components/Footer';
 import NotFound from './components/NotFound';
 
@@ -24,6 +25,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Dashboard mode={mode} />} />
+            <Route path="/project/:id" element={<Project />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
