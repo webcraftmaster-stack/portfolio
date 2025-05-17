@@ -56,7 +56,7 @@ export default function Portfolio() {
                                             <img src={project.img} alt="thumb" />
                                             <div className="content">
                                                 <div className="title">
-                                                    <span>{project.subTitle}</span>
+                                                    <span>{project.type}</span>
                                                     <h5><a href="#">{project.title}</a></h5>
                                                 </div>
                                                 <Link to={"/project/" + project.url}>
