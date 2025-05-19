@@ -2,8 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 export default function Breadcrumb({ detail }) {
-    console.log(detail);
-
     return (
         <div className="breadcrumb-area shadow dark bg-cover text-center text-light" style={{backgroundImage: `url(${detail.bannerImg})`}}>
             <div className="container">
