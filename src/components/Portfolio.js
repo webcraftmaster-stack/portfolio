@@ -57,7 +57,7 @@ export default function Portfolio() {
                                             <div className="content">
                                                 <div className="title">
                                                     <span>{project.type}</span>
-                                                    <h5><a href="#">{project.title}</a></h5>
+                                                    <h5>{project.title}</h5>
                                                 </div>
                                                 <Link to={"/project/" + project.url}>
                                                     <i className="fas fa-arrow-right"></i>

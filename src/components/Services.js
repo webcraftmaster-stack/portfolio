@@ -23,7 +23,7 @@ export default function Services() {
                         <div className="service-style-one col-lg-4 col-md-6" key={id}>
                             <div className="service-style-one-item">
                                 <img src={service.imgIcon} alt="Icon" />
-                                <h4><a data-bs-toggle="modal" data-bs-target="#serviceSingleModal">{service.title}</a></h4>
+                                <h4>{service.title}</h4>
                                 <p>{service.description}</p>
                             </div>
                         </div>

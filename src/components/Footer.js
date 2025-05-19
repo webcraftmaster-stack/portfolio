@@ -8,19 +8,19 @@ export default function Footer() {
                     <div className="col-lg-6">
                         <ul className="footer-social">
                             <li className="facebook">
-                                <a href="#">
+                                <span>
                                     <i className="fab fa-facebook-f"></i>
-                                </a>
+                                </span>
                             </li>
                             <li className="behance">
-                                <a href="#">
+                                <span>
                                     <i className="fab fa-behance"></i>
-                                </a>
+                                </span>
                             </li>
                             <li className="dribbble">
-                                <a href="#">
+                                <span>
                                     <i className="fab fa-dribbble"></i>
-                                </a>
+                                </span>
                             </li>
                         </ul>
                     </div>

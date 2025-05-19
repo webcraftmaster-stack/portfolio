@@ -1,53 +1,54 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Header({mode, setMode}) {
   return (
     <header className="header-fixed">
         <div className="f-flex">
             <div className="logo">
-                <a href="/">
+                <Link to="/">
                     <img src="/img/logo-icon.svg" alt="Logo" />
-                </a>
+                </Link>
             </div>
             <div className="menu">
                 <ul className="nav">
                     <li>
-                        <a className="smooth-menu" href="#home">
+                        <Link className="smooth-menu" to="#home">
                             <i className="fas fa-home"></i>
                             <div className="menu-name">Home</div>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="smooth-menu" href="#services">
+                        <Link className="smooth-menu" to="#services">
                             <i className="fas fa-cog"></i>
                             <div className="menu-name">Services</div>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="smooth-menu" href="#portfolio">
+                        <Link className="smooth-menu" to="#portfolio">
                             <i className="fas fa-briefcase"></i>
                             <div className="menu-name">Portfolio</div>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="smooth-menu" href="#resume">
+                        <Link className="smooth-menu" to="#resume">
                             <i className="fas fa-file-alt"></i>
                             <div className="menu-name">Resume</div>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="smooth-menu" href="#contact">
+                        <Link className="smooth-menu" to="#contact">
                             <i className="fas fa-comments"></i>
                             <div className="menu-name">Contact</div>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="smooth-menu" href="#" onClick={() => {
+                        <Link className="smooth-menu" onClick={() => {
                             setMode(!mode);
                         }}>
                             <i className={mode === true ? "fas fa-sun" : "fas fa-moon"}></i>
                             <div className="menu-name">{mode === true ? "Light Mode" : "Dark Mode"}</div>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
