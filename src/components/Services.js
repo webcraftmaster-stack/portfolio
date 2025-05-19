@@ -111,7 +111,7 @@ export default function Services() {
                                             <div className="col-md-6" key={id}>
                                                 <div className="item">
                                                     <i className={item.img}></i>
-                                                    <h4><a>{item.title}</a></h4>
+                                                    <h4><span>{item.title}</span></h4>
                                                     <p>
                                                         {item.description}
                                                     </p>
