@@ -1,7 +1,7 @@
 const resume = {
     tag1: "Biography",
     biography: {
-        name: "David William",
+        name: "Matthew Leu",
         birthday: "20 April, 1999",
         address: "Street Oswego NY 13126 USA",
         email: "strictmastermind@gmail.com",

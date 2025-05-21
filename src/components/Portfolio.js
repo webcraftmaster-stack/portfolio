@@ -44,16 +44,16 @@ export default function Portfolio() {
                 </div>
             </div>
         </div>
-        <div className="container">
+        <div className="container" style={{width: "75vh"}}>
             <div className="row">
                 <div className="col-md-12 gallery-content mb--15">
                     <div className="magnific-mix-gallery masonary">
-                        <div id="portfolio-grid" className="gallery-items colums-3">
+                        <div id="portfolio-grid" className="gallery-items colums-1">
                             {
                                 portfolio.projects.map((project, id) => (
                                     <div className="pf-item" key={id}>
                                         <div className="overlay-content">
-                                            <img src={project.img} alt="thumb" />
+                                            <img src={project.bannerImg} alt="thumb" />
                                             <div className="content">
                                                 <div className="title">
                                                     <span>{project.type}</span>
@@ -64,6 +64,7 @@ export default function Portfolio() {
                                                 </Link>
                                             </div>
                                         </div>
+                                        <br/>
                                     </div>
                                 ))
                             }

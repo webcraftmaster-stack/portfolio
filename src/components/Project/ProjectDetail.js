@@ -34,27 +34,25 @@ export default function ProjectDetail({ detail }) {
                     </div>
                 </div>
 
-                <div className="main-content mt-40">
-                    
-                    <p>{detail.desc}</p>
-                </div>
-
-                <div>
-                    <Carousel>
+                <div className="main-content mt-40 auto-center row">
+                    <div className="col-lg-8 offset-lg-2">
+                        <p>{detail.desc}</p>
+                        <Carousel>
                         {
                             detail.print.map((item, id) => (
-                                <Carousel.Item key={id}>
+                                <Carousel.Item key={id} style={{height: "40vh"}}>
                                     <div>
-                                        <img src={item.img} alt="Thumb" />
+                                        <img src={item} alt="Thumb" />
                                     </div>
-                                    <Carousel.Caption>
-                                        <h3>{item.name}</h3>
-                                        <p>{item.description}</p>
-                                    </Carousel.Caption>
                                 </Carousel.Item>
                             ))
                         }
-                    </Carousel>
+                      </Carousel>
+                    </div>
+                </div>
+
+                <div>
+                    
                 </div>
             </div>
         </div>

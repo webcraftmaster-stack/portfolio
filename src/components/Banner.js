@@ -1,15 +1,14 @@
 import React from 'react'
 import profile from '../data/profile'
-import banner from '../data/banner'
 
 export default function Banner() {
   return (
     <div className="auto-height bg-fixed banner-style-one" id="home">
         <div className="container">
             <div className="double-items">
-                <div className="row align-center">
+                <div className="row align-center" style={{height: "80vh"}}>
 
-                    <div className="col-lg-6 info">
+                    <div className="col-lg-12 info">
                         <h1 className="text-invisible">WELCOME</h1>
                         <h2>Hey <img src="/img/shape/4.png" alt="Icon" /> I'm <span>{profile.firstName}</span></h2>
                         <h3 className="title">
@@ -31,36 +30,7 @@ export default function Banner() {
                             <a className="btn btn-md circle btn-dark" href="#resume">My Resume</a>
                         </div>
                     </div>
-
-                     <div className="col-lg-6 thumb" data-wow-delay="900ms">
-                        <img className="wow fadeInDown" src={profile.picture} alt="Thumb" />
-                        <div className="shape-center">
-                            <img src={banner.thumb} alt="Thumb" />
-                        </div>
-                    </div>
-                    
                 </div>
-                {
-                <div className="personal-social">
-                    <ul>
-                        <li className="facebook">
-                            <span>
-                                <i className="fab fa-facebook-f"></i>
-                            </span>
-                        </li>
-                        <li className="behance">
-                            <span>
-                                <i className="fab fa-behance"></i>
-                            </span>
-                        </li>
-                        <li className="dribbble">
-                            <span>
-                                <i className="fab fa-dribbble"></i>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-                }
             </div>
         </div>
     </div>

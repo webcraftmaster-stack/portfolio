@@ -3,14 +3,14 @@ const services = {
     title: "What I Do",
     services: [
         {
-            title: "Website design",
+            title: "Full-Stack Expertise",
             imgIcon: "/img/icon/1.png",
-            description: "Continue indulged speaking the was horrible for domestic position. Seeing get rather her you not esteem men settle is genius take excuse. Deal say over you age comparison new ham melancholy."
+            description: "I am a senior full-stack engineer with over 8 years of hands-on experience building scalable, end-to-end web applications using modern technologies across both front-end and back-end stacks."
         },
         {
-            title: "App Development",
+            title: "Front-End Development",
             imgIcon: "/img/icon/2.png",
-            description: "Continue indulged speaking the was horrible for domestic position. Seeing get rather her you not esteem men settle is genius take excuse. Deal say over you age comparison new ham melancholy."
+            description: "I develop responsive, high-performance user interfaces using frameworks like React and Vue, along with strong skills in HTML, CSS, JavaScript, TypeScript, and UI/UX best practices."
         },
         {
             title: "UX/UI Design",
@@ -20,8 +20,8 @@ const services = {
     ],
     modal: {
         thumb: "/img/1500x700.png",
-        title: "Best influencer marketing services",
-        detail: "We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue cannot foresee. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled data structures manages data in technology.",
+        title: "Back-End & DevOps",
+        detail: "From designing RESTful APIs and managing databases like PostgreSQL and MongoDB to implementing CI/CD pipelines and deploying applications with Docker and cloud services, I handle every layer of the stack with precision and efficiency.",
         features: {
             leftTitle: "Included Services",
             leftItems: [
