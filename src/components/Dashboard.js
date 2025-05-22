@@ -3,7 +3,6 @@ import Services from './Services';
 import Portfolio from './Portfolio';
 import About from './About';
 import Resume from './Resume';
-import Contact from './Contact';
 
 import React from 'react'
 
@@ -15,7 +14,6 @@ export default function Dashboard() {
             <Portfolio />
             <About />
             <Resume />
-            <Contact />
         </>
     )
 }

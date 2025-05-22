@@ -2,12 +2,10 @@ const resume = {
     tag1: "Biography",
     biography: {
         name: "Matthew Leu",
-        birthday: "20 April, 1999",
-        address: "Street Oswego NY 13126 USA",
-        email: "strictmastermind@gmail.com",
-        phone: "+(778)33444564",
-        skype: "program540",
-        freelance: true
+        birthday: "20 Dec, 1992",
+        address: "837 N West Knoll Dr Apt 209, West Hollywood, CA",
+        email: "matthewtylerleu@gmail.com",
+        workType: "remote"
     },
     tag2: "Skills",
     skills: [
@@ -30,28 +28,16 @@ const resume = {
     tag3: "Education",
     education: [
         {
-            title: "AS - Science & Information",
-            school: "SuperKing College",
-            date: "2001 - 2005",
-            desc: "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title: "H.S. Diploma",
+            school: "Livingston High School",
+            date: "Jan 1, 2008 - Dec 31, 2011",
+            desc: "Livingston High School is a well-regarded public high school in New Jersey known for its strong academic programs and supportive community."
         },
         {
-            title: "BSc in Computer Science",
-            school: "University of DVI",
-            date: "2006 - 2010",
-            desc: "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
-        },
-        {
-            title: "Web Developer & Trainer",
-            school: "Apple Developer Team",
-            date: "2012 - 2016",
-            desc: "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
-        },
-        {
-            title: "Sr. Software Engineer",
-            school: "Google Out Tech",
-            date: "2017 - Present",
-            desc: "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title: "Supply Chain & Information Systems, Senior",
+            school: "Penn State University",
+            date: "Jan 1, 2011 - Dec 31, 2015",
+            desc: "Penn State University is a top-ranked public research institution known for its academic excellence, global impact, and strong alumni network."
         }
     ]
 }

@@ -1,10 +1,6 @@
 const portfolio = {
     subTitle: "Recent Work",
     title: "Look at my portfolio and give me your feedback",
-    counter: 276,
-    counterDesc: "Completed Project",
-    rating: 94,
-    ratingDesc: "Positive Rating",
     projects: [
       {
           url: 'matrix',              // Project Title

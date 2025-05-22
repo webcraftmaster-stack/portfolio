@@ -80,21 +80,9 @@ export default function Resume() {
                                                     </p>
                                                 </li>
                                                 <li>
-                                                    <h5>Phone</h5>
+                                                    <h5>Work Type</h5>
                                                     <p>
-                                                        {resume.biography.phone}
-                                                    </p>
-                                                </li>
-                                                <li>
-                                                    <h5>Skype</h5>
-                                                    <p>
-                                                        {resume.biography.skype}
-                                                    </p>
-                                                </li>
-                                                <li>
-                                                    <h5>Freelance</h5>
-                                                    <p>
-                                                        {resume.biography.freelance === true ? "Available" : "Unavailable"}
+                                                        {resume.biography.workType === true ? "Available" : "Unavailable"}
                                                     </p>
                                                 </li>
                                             </ul>

@@ -21,26 +21,6 @@ export default function Portfolio() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 offset-lg-1">
-                        <div className="right-info">
-                            <div className="fun-factor-default">
-                                <div className="fun-fact">
-                                    <div className="counter">
-                                        <div className="timer" data-to={portfolio.counter} data-speed="2000">{portfolio.counter}</div>
-                                        <div className="operator">K</div>
-                                    </div>
-                                    <span className="medium">{portfolio.counterDesc}</span>
-                                </div>
-                                <div className="fun-fact">
-                                    <div className="counter">
-                                        <div className="timer" data-to={portfolio.rating} data-speed="2000">{portfolio.rating}</div>
-                                        <div className="operator">%</div>
-                                    </div>
-                                    <span className="medium">{portfolio.ratingDesc}</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

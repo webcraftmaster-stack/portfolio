@@ -13,33 +13,9 @@ export default function Header({mode, setMode}) {
             <div className="menu">
                 <ul className="nav">
                     <li>
-                        <Link className="smooth-menu" to="#home">
+                        <Link className="smooth-menu" to="/">
                             <i className="fas fa-home"></i>
                             <div className="menu-name">Home</div>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className="smooth-menu" to="#services">
-                            <i className="fas fa-cog"></i>
-                            <div className="menu-name">Services</div>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className="smooth-menu" to="#portfolio">
-                            <i className="fas fa-briefcase"></i>
-                            <div className="menu-name">Portfolio</div>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className="smooth-menu" to="#resume">
-                            <i className="fas fa-file-alt"></i>
-                            <div className="menu-name">Resume</div>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className="smooth-menu" to="#contact">
-                            <i className="fas fa-comments"></i>
-                            <div className="menu-name">Contact</div>
                         </Link>
                     </li>
                     <li>

@@ -3,7 +3,7 @@ const profile = {
     roles: [
         "Full-Stack Developer",
         "Professional Coder",
-        "UI/UX Designer"
+        "Senior Developer"
     ],
     picture: "/img/illustration/1.png"
 }
